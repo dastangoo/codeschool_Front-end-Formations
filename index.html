@@ -36,6 +36,39 @@
       h1 {
         text-shadow: 1px 1px 2px #000;
       }
+      .element {
+        /*background-image: url(bg1.jpg), url(bg2.jpg);
+        background-position: top left, center right;
+        background-repeat: no repeat, no repeat;*/
+        /*width: 400px;*/
+        /*color: rgba(0, 0, 0, 0.75);*/
+        /*color: hsla(240, 100%, 50%, 0.75);*/
+        /*opacity: 0.45;*/
+        background: url(bg1.jpg) center no-repeat;
+        opacity: 0.45;
+      }
+      .element1 {
+        background: 
+          url(bg1.jpg) top left no-repeat,
+          url(bg2.jpg) center right no-repeat;
+          
+      }
+      .element2 {
+        width: 200px;
+        height: 400px;
+        /*background: linear-gradient(to bottom, red, yellow);*/
+        /*background: radial-gradient(aqua, blue);*/
+        /*background: radial-gradient(circle at top left, aqua, blue);*/
+        background: radial-gradient(at top left, aqua, blue);
+      }
+      body {
+        /*background-image: url(bg1.jpg), url(bg2.jpg);
+        background-position: top left, center right;
+        background-repeat: no repeat, no repeat;         */
+        background: 
+          url(bg1.jpg) top left no-repeat,
+          url(bg2.jpg) center right no-repeat;
+      }
     </style>
   </head>
   <body>
@@ -136,8 +169,15 @@
       <input type="text" pattern="[0-9]{3}">
       <input type="submit"value="Submit">
     </form>
+    <div class="element">
+      <h2>Hello.</h2>
+    </div>
+    <img src="bg1.jpg" style="opacity: 0.45;"alt="">
     <footer>
       <!--  -->
+      <div class="element2">
+
+      </div>
     </footer>
   </body>
 </html>
