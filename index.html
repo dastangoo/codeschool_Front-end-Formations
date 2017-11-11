@@ -8,6 +8,24 @@
       
     </script>
     <style media="screen">
+      /*@font-face {
+        font-family: 'OpenSansRegular';
+        src: url('OpenSansRegular-webfont.eot');
+        font-style: normal;
+        font-weight: normal;
+      }*/
+      @font-face {
+        font-family: 'OpenSansRegular';
+        src: url('OpenSansBold-webfont.eot');
+        font-style: normal;
+        font-weight: bold;
+      }
+      /*@font-face {
+        font-family: 'OpenSansBold';
+        src: url('OpenSansBold-webfont.eot');
+        font-style: normal;
+        font-weight: normal;
+      }*/
       input {
         display: block;
       }
@@ -35,6 +53,9 @@
       }
       h1 {
         text-shadow: 1px 1px 2px #000;
+        font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+        /*font-family: 'OpenSansBold';*/
+        font-weight: bold;
       }
       .element {
         /*background-image: url(bg1.jpg), url(bg2.jpg);
@@ -59,7 +80,36 @@
         /*background: linear-gradient(to bottom, red, yellow);*/
         /*background: radial-gradient(aqua, blue);*/
         /*background: radial-gradient(circle at top left, aqua, blue);*/
-        background: radial-gradient(at top left, aqua, blue);
+        /*background: radial-gradient(at top left, aqua, blue);*/
+        /*background: black;*/
+        /*color: white;*/
+        /*transition: all 0.2s ease-in-out;*/
+        /*transition: background-color 0.2s ease-in-out;*/
+        /*transition: background-color 0.2s ease-in-out 0.5;*/
+        /*transition-property: background-color;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0.1s;*/
+        /*transform: translate(20px, 30px);*/
+        /*transform: translateX(20px);*/
+        /*transform: translateY(30px);*/
+        /*transform: rotate(45deg);*/
+        /*transform: scale(1.2);*/
+        /*transform: scaleX(1.2);*/
+        /*transform: scaleY(0.3);*/
+        /*transform: skewX(-25deg);*/
+        /*transform: skewY(-85deg);*/
+        background: #ccc;
+        /*background: #cccccc;*/
+        border-radius: 10px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+      }
+      /*.element2:hover{
+        background: blue;
+      }*/
+      .element2:hover{
+        background: grey;
+        color: black;
       }
       body {
         /*background-image: url(bg1.jpg), url(bg2.jpg);
@@ -175,9 +225,7 @@
     <img src="bg1.jpg" style="opacity: 0.45;"alt="">
     <footer>
       <!--  -->
-      <div class="element2">
-
-      </div>
+      <div class="element2">Hello</div>
     </footer>
   </body>
 </html>
