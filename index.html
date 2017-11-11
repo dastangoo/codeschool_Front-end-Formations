@@ -11,6 +11,31 @@
       input {
         display: block;
       }
+      .box {
+        /*border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;*/
+        /*border-radius: 15px;*/
+        /*border-radius: 15px 15px 15px 15px;*/
+        /*border-radius: 50%;*/
+        background: grey;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 10px;
+        /*height: 50px;*/
+        width: 300px;
+        box-sizing: border-box; 
+        /*box-shadow: inset 1px 2px 20px 10px #000;*/
+        /*box-shadow: 1px 2px 0 2px  #000;*/
+        box-shadow: 
+          /*1px 2px 2px  #000,
+          inset 1px 1px 2px blue;*/
+          -1px -2px 2px #000;
+      }
+      h1 {
+        text-shadow: 1px 1px 2px #000;
+      }
     </style>
   </head>
   <body>
@@ -84,6 +109,9 @@
     </div>
     <time datetime="2017-11-08">08/11/2017</time>
     <br>
+    <div class="box"></div>
+    <br>
+    <h1>I have a shadow!</h1>
     <form>
       <input type="text">
       <input type="search" placeholder="Search">
@@ -106,7 +134,7 @@
         <option value="Firefox"></option>
       </datalist>      
       <input type="text" pattern="[0-9]{3}">
-      <input type="submit" name="" value="Submit">
+      <input type="submit"value="Submit">
     </form>
     <footer>
       <!--  -->
